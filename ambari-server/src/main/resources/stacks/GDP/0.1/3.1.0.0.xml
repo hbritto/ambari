@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<repository-version xsi:noNamespaceSchemaLocation="version_definition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <release>
+        <type>STANDARD</type>
+        <stack-id>GDP-0.1</stack-id>
+        <version>0.1.0.0</version>
+        <build>1634</build>
+        <compatible-with>3\.\d+\.\d+\.\d+</compatible-with>
+        <release-notes>http://example.com</release-notes>
+        <display>GDP-0.1.0.0</display>
+    </release>
+    <manifest>
+        <service id="SPARK2-231" version="2.3.1" name="SPARK2"/>
+        <service id="HBASE-200" version="2.0.0" name="HBASE"/>
+        <service id="PIG-0160" version="0.16.0" name="PIG"/>
+        <service id="DRUID-0121" version="0.12.1" name="DRUID"/>
+        <service id="ATLAS-100" version="1.0.0" name="ATLAS"/>
+        <service id="OOZIE-431" version="4.3.1" name="OOZIE"/>
+        <service id="HIVE-310" version="3.1.0" name="HIVE"/>
+        <service id="ZEPPELIN-080" version="0.8.0" name="ZEPPELIN"/>
+        <service id="RANGER-110" version="1.1.0" name="RANGER"/>
+        <service id="RANGER_KMS-110" version="1.1.0" name="RANGER_KMS"/>
+        <service id="ZOOKEEPER-346" version="3.4.6" name="ZOOKEEPER"/>
+        <service id="ACCUMULO-170" version="1.7.0" name="ACCUMULO"/>
+        <service id="KAFKA-101" version="1.0.1" name="KAFKA"/>
+        <service id="HDFS-310" version="3.1.0" name="HDFS"/>
+        <service id="YARN-310" version="3.1.0" name="YARN"/>
+        <service id="MAPREDUCE2-310" version="3.1.0" name="MAPREDUCE2"/>
+        <service id="TEZ-091" version="0.9.1" name="TEZ"/>
+        <service id="STORM-121" version="1.2.1" name="STORM"/>
+        <service id="SQOOP-147" version="1.4.7" name="SQOOP"/>
+        <service id="KNOX-100" version="1.0.0" name="KNOX"/>
+    </manifest>
+    <available-services/>
+    <repository-info>
+        <os family="redhat7">
+            <package-version>3_0_0_0_*</package-version>
+            <repo>
+                <baseurl>http://public-repo-1.hortonworks.com/HDP/centos7/3.x/updates/3.0.0.0</baseurl>
+                <repoid>HDP-3.0</repoid>
+                <reponame>HDP</reponame>
+                <unique>true</unique>
+            </repo>
+            <repo>
+                <baseurl>http://public-repo-1.hortonworks.com/HDP-GPL/centos7/3.x/updates/3.0.0.0</baseurl>
+                <repoid>HDP-3.0-GPL</repoid>
+                <reponame>HDP-GPL</reponame>
+                <unique>true</unique>
+                <tags>
+                    <tag>GPL</tag>
+                </tags>
+            </repo>
+            <repo>
+                <baseurl>http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.22/repos/centos7</baseurl>
+                <repoid>HDP-UTILS-1.1.0.22</repoid>
+                <reponame>HDP-UTILS</reponame>
+                <unique>false</unique>
+            </repo>
+        </os>
+    </repository-info>
+</repository-version>
